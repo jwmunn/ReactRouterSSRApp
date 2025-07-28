@@ -13,7 +13,6 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
         <div className={styles.logo}>MyApp</div>
         <nav className={styles.topNavLinks}>
           <Button appearance="subtle" as="a" href="/">Home</Button>
-          <Button appearance="subtle" as="a" href="/about">About</Button>
         </nav>
       </header>
       <div className={styles.flexContainer}>
