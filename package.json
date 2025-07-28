@@ -1,0 +1,28 @@
+{
+  "name": "react-router-ssr-app",
+  "version": "1.0.0",
+  "description": "SSR React app using React Router v7 Framework Mode and Fluent 2 UI.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.0.0",
+    "express": "^4.21.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router": "^7.7.1",
+    "react-router-dom": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/express": "^5.0.3",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^4.0.0"
+  }
+}
